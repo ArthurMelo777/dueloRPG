@@ -1,19 +1,17 @@
 # TIPOS DE PLAYERS
 
-* GUERREIRO (nvl 1)
-*Descrição*: Um honrado homem com sua espada, espero que saiba usá-la
-*Info*: Multiplicador de atributos *5
-Atributos | Valor
-:----------:|:-------:
-Vida      | 50
-Ataque    | 5
-Defesa    | 10
+* GUERREIRO (nvl 1)  
+*Descrição*: Um cara com uma espada  
+*Info*: Multiplicador de atributos X5  
+*ATRIBUTOS*  
+Vida: 50  
+Ataque: 5  
+Defesa: 10  
 
-* ARQUEIRO (nvl 1)
-*Descrição*: Olhos de águia e arco de... madeira?
-*Info*: Multiplicador de atributos *5
-Atributos | Valor
-:----------:|:-------:
-Vida      | 25
-Ataque    | 25
-Defesa    | 5
+* ARQUEIRO (nvl 1)  
+*Descrição*: Olhos de águia, arco de... madeira?  
+*Info*: Multiplicador de atributos X5  
+*ATRIBUTOS*  
+Vida: 25  
+Ataque: 20  
+Defesa: 50  
