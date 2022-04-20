@@ -1,7 +1,6 @@
 class Personagem:
-    def __init__(self, id, nivel, classe, defesa, ataque, vida):
-        self.id = id
-        self.nivel = nivel
+    def __init__(self, classe, defesa, ataque, vida):
+        self.nivel = 1
         self.classe = classe
         self.vida = vida
         self.ataque = ataque
@@ -9,10 +8,10 @@ class Personagem:
         self.vidaAtual = 0
 
     def exibirAtributos(self):
-        print(f"Nível = {self.nivel}; Classe = {self.classe}; Vida = {self.vida}; Ataque = {self.ataque}; Defesa = {self.defesa}; Vida atual = {self.vidaAtual}")
+        print(f"Nível = {self.nivel}; Classe = {self.classe}; Vida = {self.vida}; Ataque = {self.ataque}; Defesa = {self.defesa}; Vida atual = {self.vidaAtual};")
 
 class Player(Personagem):
-    def __init__(self, id, nivel, classe):
+    def __init__(self, classe):
         classe = classe.upper()
         if classe == 'GUERREIRO':
             vida = 50
@@ -24,10 +23,10 @@ class Player(Personagem):
             ataque = 20
             defesa = 5
 
-        super().__init__(id, nivel, classe, defesa, ataque, vida)
+        super().__init__(classe, defesa, ataque, vida)
 
 class Monstro(Personagem):
-    def __init__(self, id, nivel, classe):
+    def __init__(self, classe):
         classe = classe.upper()
         if classe == 'VAMPIRO':
             vida = 500
@@ -49,4 +48,4 @@ class Monstro(Personagem):
             ataque = 2
             defesa = 1
 
-        super().__init__(id, nivel, classe, defesa, ataque, vida)
+        super().__init__(classe, defesa, ataque, vida)
