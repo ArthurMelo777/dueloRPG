@@ -14,4 +14,4 @@ Defesa: 10
 *ATRIBUTOS*  
 Vida: 25  
 Ataque: 20  
-Defesa: 50  
+Defesa: 5  
