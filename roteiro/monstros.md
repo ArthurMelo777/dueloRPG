@@ -7,7 +7,6 @@
 *ATRIBUTOS*  
 Vida: 500  
 Ataque: 50  
-Defesa: 20  
 
 ## CLASSE B
 * Zumbi (nvl 1)  
@@ -16,7 +15,6 @@ Defesa: 20
 *ATRIBUTOS*  
 Vida: 100  
 Ataque: 10  
-Defesa: 6  
 
 ## CLASSE C
 * Esqueleto (nvl 1)  
@@ -25,7 +23,6 @@ Defesa: 6
 *ATRBUTOS*  
 Vida: 50  
 Ataque: 5  
-Defesa: 3  
 
 ## CLASSE D
 * Morcego (nvl 1)  
@@ -34,4 +31,3 @@ Defesa: 3
 *ATRIBUTOS*  
 Vida: 25  
 Ataque: 2  
-Defesa: 1  

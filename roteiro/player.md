@@ -6,7 +6,6 @@
 *ATRIBUTOS*  
 Vida: 50  
 Ataque: 5  
-Defesa: 10  
 
 * ARQUEIRO (nvl 1)  
 *Descrição*: Olhos de águia, arco de... madeira?  
@@ -14,4 +13,3 @@ Defesa: 10
 *ATRIBUTOS*  
 Vida: 25  
 Ataque: 20  
-Defesa: 5  

@@ -2,8 +2,8 @@ from classes.personagens import *
 
 ## FASE DE TESTES
 
-heroi = Player('arqueiro')
-vilao = Monstro('vampiro')
+heroi = Player('guerreiro')
+vilao = Monstro('zumbi')
 
 heroi.exibirAtributos()
 vilao.exibirAtributos()
