@@ -1,10 +1,14 @@
-import classes
-from classes.personagens import Monstro, Player
+from classes.personagens import *
 
 ## FASE DE TESTES
 
 heroi = Player('arqueiro')
-vilao = Monstro('esqueleto')
+vilao = Monstro('vampiro')
 
 heroi.exibirAtributos()
 vilao.exibirAtributos()
+
+luta = Combate(heroi, vilao)
+
+luta.setVida()
+luta.Luta()
